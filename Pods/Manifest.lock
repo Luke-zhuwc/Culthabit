@@ -1,0 +1,35 @@
+PODS:
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - Eureka (5.0.0)
+  - SplitRow (2.0.0):
+    - Eureka (~> 5.0)
+  - SwiftSpreadsheet (1.2.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - Eureka
+  - SplitRow
+  - SwiftSpreadsheet
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - Eureka
+    - SplitRow
+    - SwiftSpreadsheet
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  Eureka: 0f64f477ec8ef6201c6fec143d60ff5c201cf654
+  SplitRow: dc09444a528bca75c183ec7f0a0a3c5814dc35dd
+  SwiftSpreadsheet: b3dc6d89bd5fd18f38fe88c29898fbc481660a04
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: b7a8aa50c3193ee3a248491ad1569b77e00477d7
+
+COCOAPODS: 1.7.5

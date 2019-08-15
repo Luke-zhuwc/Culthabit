@@ -1,0 +1,6 @@
+framework module Pods_Culthabit {
+  umbrella header "Pods-Culthabit-umbrella.h"
+
+  export *
+  module * { export * }
+}

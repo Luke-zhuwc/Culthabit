@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BB21E72303781C000CAB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB21E62303781C000CAB75 /* AppDelegate.swift */; };
+		01BB21E92303781C000CAB75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB21E82303781C000CAB75 /* HomeViewController.swift */; };
+		01BB21EE2303781D000CAB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BB21ED2303781D000CAB75 /* Assets.xcassets */; };
+		01BB21F12303781D000CAB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BB21EF2303781D000CAB75 /* LaunchScreen.storyboard */; };
+		01BB21FC2303781D000CAB75 /* CulthabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB21FB2303781D000CAB75 /* CulthabitTests.swift */; };
+		01BB22072303781D000CAB75 /* CulthabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB22062303781D000CAB75 /* CulthabitUITests.swift */; };
+		01BB22182304A34D000CAB75 /* TaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB22172304A34D000CAB75 /* TaskInfo.swift */; };
+		01BB221A23050164000CAB75 /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BB221923050164000CAB75 /* Schedule.storyboard */; };
+		01BB222023050890000CAB75 /* Sche_AddTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB221F23050890000CAB75 /* Sche_AddTaskTableViewController.swift */; };
+		01BB2222230508C6000CAB75 /* Sche_AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB2221230508C6000CAB75 /* Sche_AlarmViewController.swift */; };
+		01BB2224230508DE000CAB75 /* Sche_KeyTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB2223230508DE000CAB75 /* Sche_KeyTaskViewController.swift */; };
+		01BB2226230508EE000CAB75 /* Sche_StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB2225230508EE000CAB75 /* Sche_StatViewController.swift */; };
+		01BB22282305090A000CAB75 /* Sche_ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB22272305090A000CAB75 /* Sche_ShoppingViewController.swift */; };
+		01BB222A23050927000CAB75 /* Study_ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB222923050927000CAB75 /* Study_ProjectViewController.swift */; };
+		01BB222C23050937000CAB75 /* Study_TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB222B23050937000CAB75 /* Study_TipViewController.swift */; };
+		01BB222E2305096B000CAB75 /* Study_KnowledgeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB222D2305096B000CAB75 /* Study_KnowledgeBaseViewController.swift */; };
+		01BB223023050980000CAB75 /* Study_EditProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB222F23050980000CAB75 /* Study_EditProjectViewController.swift */; };
+		01BB223223050BEE000CAB75 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB223123050BEE000CAB75 /* ScheduleViewController.swift */; };
+		01BB223423050CB8000CAB75 /* Sche_RoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BB223323050CB8000CAB75 /* Sche_RoutineViewController.swift */; };
+		858387ED6040400F5BA7DE2D /* Pods_CulthabitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2972053A360F07965D64A7 /* Pods_CulthabitUITests.framework */; };
+		85A4D6297863F1E99461EDB0 /* Pods_CulthabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840020FB9385E1AC240DA39 /* Pods_CulthabitTests.framework */; };
+		A082F1588F4516C1DDDDA8D1 /* Pods_Culthabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DA3C31F05DBC818B29086A /* Pods_Culthabit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BB21F82303781D000CAB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BB21DB2303781C000CAB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BB21E22303781C000CAB75;
+			remoteInfo = Culthabit;
+		};
+		01BB22032303781D000CAB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BB21DB2303781C000CAB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BB21E22303781C000CAB75;
+			remoteInfo = Culthabit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018B485312015A6F4BEA367D /* Pods-CulthabitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CulthabitTests.release.xcconfig"; path = "Target Support Files/Pods-CulthabitTests/Pods-CulthabitTests.release.xcconfig"; sourceTree = "<group>"; };
+		01BB21E32303781C000CAB75 /* Culthabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Culthabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BB21E62303781C000CAB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01BB21E82303781C000CAB75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		01BB21ED2303781D000CAB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BB21F02303781D000CAB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BB21F22303781D000CAB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BB21F72303781D000CAB75 /* CulthabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CulthabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BB21FB2303781D000CAB75 /* CulthabitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulthabitTests.swift; sourceTree = "<group>"; };
+		01BB21FD2303781D000CAB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BB22022303781D000CAB75 /* CulthabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CulthabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BB22062303781D000CAB75 /* CulthabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulthabitUITests.swift; sourceTree = "<group>"; };
+		01BB22082303781D000CAB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BB22172304A34D000CAB75 /* TaskInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfo.swift; sourceTree = "<group>"; };
+		01BB221923050164000CAB75 /* Schedule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		01BB221F23050890000CAB75 /* Sche_AddTaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_AddTaskTableViewController.swift; sourceTree = "<group>"; };
+		01BB2221230508C6000CAB75 /* Sche_AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_AlarmViewController.swift; sourceTree = "<group>"; };
+		01BB2223230508DE000CAB75 /* Sche_KeyTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_KeyTaskViewController.swift; sourceTree = "<group>"; };
+		01BB2225230508EE000CAB75 /* Sche_StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_StatViewController.swift; sourceTree = "<group>"; };
+		01BB22272305090A000CAB75 /* Sche_ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_ShoppingViewController.swift; sourceTree = "<group>"; };
+		01BB222923050927000CAB75 /* Study_ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_ProjectViewController.swift; sourceTree = "<group>"; };
+		01BB222B23050937000CAB75 /* Study_TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_TipViewController.swift; sourceTree = "<group>"; };
+		01BB222D2305096B000CAB75 /* Study_KnowledgeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_KnowledgeBaseViewController.swift; sourceTree = "<group>"; };
+		01BB222F23050980000CAB75 /* Study_EditProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_EditProjectViewController.swift; sourceTree = "<group>"; };
+		01BB223123050BEE000CAB75 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		01BB223323050CB8000CAB75 /* Sche_RoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sche_RoutineViewController.swift; sourceTree = "<group>"; };
+		162343030265D4F6D41092B8 /* Pods-CulthabitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CulthabitUITests.debug.xcconfig"; path = "Target Support Files/Pods-CulthabitUITests/Pods-CulthabitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		163C65B478C2D15AFC92A881 /* Pods-Culthabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Culthabit.debug.xcconfig"; path = "Target Support Files/Pods-Culthabit/Pods-Culthabit.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2972053A360F07965D64A7 /* Pods_CulthabitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CulthabitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1E48BFB5885225D129420 /* Pods-CulthabitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CulthabitTests.debug.xcconfig"; path = "Target Support Files/Pods-CulthabitTests/Pods-CulthabitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A29BA637FBD52ED43B68508 /* Pods-CulthabitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CulthabitUITests.release.xcconfig"; path = "Target Support Files/Pods-CulthabitUITests/Pods-CulthabitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7840020FB9385E1AC240DA39 /* Pods_CulthabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CulthabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DA3C31F05DBC818B29086A /* Pods_Culthabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Culthabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12AFDB88C44092EC7E0F85C /* Pods-Culthabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Culthabit.release.xcconfig"; path = "Target Support Files/Pods-Culthabit/Pods-Culthabit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BB21E02303781C000CAB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A082F1588F4516C1DDDDA8D1 /* Pods_Culthabit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB21F42303781D000CAB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A4D6297863F1E99461EDB0 /* Pods_CulthabitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB21FF2303781D000CAB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858387ED6040400F5BA7DE2D /* Pods_CulthabitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004019236B1CFA8723790722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				163C65B478C2D15AFC92A881 /* Pods-Culthabit.debug.xcconfig */,
+				F12AFDB88C44092EC7E0F85C /* Pods-Culthabit.release.xcconfig */,
+				66F1E48BFB5885225D129420 /* Pods-CulthabitTests.debug.xcconfig */,
+				018B485312015A6F4BEA367D /* Pods-CulthabitTests.release.xcconfig */,
+				162343030265D4F6D41092B8 /* Pods-CulthabitUITests.debug.xcconfig */,
+				6A29BA637FBD52ED43B68508 /* Pods-CulthabitUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		01BB21DA2303781C000CAB75 = {
+			isa = PBXGroup;
+			children = (
+				01BB21E52303781C000CAB75 /* Culthabit */,
+				01BB21FA2303781D000CAB75 /* CulthabitTests */,
+				01BB22052303781D000CAB75 /* CulthabitUITests */,
+				01BB21E42303781C000CAB75 /* Products */,
+				004019236B1CFA8723790722 /* Pods */,
+				33094884018DBAA3C2B06A56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01BB21E42303781C000CAB75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BB21E32303781C000CAB75 /* Culthabit.app */,
+				01BB21F72303781D000CAB75 /* CulthabitTests.xctest */,
+				01BB22022303781D000CAB75 /* CulthabitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BB21E52303781C000CAB75 /* Culthabit */ = {
+			isa = PBXGroup;
+			children = (
+				01BB22142304A2CC000CAB75 /* Model */,
+				01BB22152304A2E0000CAB75 /* Storyboards */,
+				01BB22162304A2FE000CAB75 /* Controllers */,
+				01BB21E62303781C000CAB75 /* AppDelegate.swift */,
+				01BB21ED2303781D000CAB75 /* Assets.xcassets */,
+				01BB21EF2303781D000CAB75 /* LaunchScreen.storyboard */,
+				01BB21F22303781D000CAB75 /* Info.plist */,
+			);
+			path = Culthabit;
+			sourceTree = "<group>";
+		};
+		01BB21FA2303781D000CAB75 /* CulthabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BB21FB2303781D000CAB75 /* CulthabitTests.swift */,
+				01BB21FD2303781D000CAB75 /* Info.plist */,
+			);
+			path = CulthabitTests;
+			sourceTree = "<group>";
+		};
+		01BB22052303781D000CAB75 /* CulthabitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01BB22062303781D000CAB75 /* CulthabitUITests.swift */,
+				01BB22082303781D000CAB75 /* Info.plist */,
+			);
+			path = CulthabitUITests;
+			sourceTree = "<group>";
+		};
+		01BB22142304A2CC000CAB75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01BB22172304A34D000CAB75 /* TaskInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01BB22152304A2E0000CAB75 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				01BB221923050164000CAB75 /* Schedule.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		01BB22162304A2FE000CAB75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01BB221C230503D8000CAB75 /* Studying VCs */,
+				01BB21E82303781C000CAB75 /* HomeViewController.swift */,
+				01BB221B230503CB000CAB75 /* Schedule VCs */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		01BB221B230503CB000CAB75 /* Schedule VCs */ = {
+			isa = PBXGroup;
+			children = (
+				01BB221F23050890000CAB75 /* Sche_AddTaskTableViewController.swift */,
+				01BB2223230508DE000CAB75 /* Sche_KeyTaskViewController.swift */,
+				01BB223123050BEE000CAB75 /* ScheduleViewController.swift */,
+				01BB2225230508EE000CAB75 /* Sche_StatViewController.swift */,
+				01BB22272305090A000CAB75 /* Sche_ShoppingViewController.swift */,
+				01BB223323050CB8000CAB75 /* Sche_RoutineViewController.swift */,
+				01BB2221230508C6000CAB75 /* Sche_AlarmViewController.swift */,
+			);
+			name = "Schedule VCs";
+			sourceTree = "<group>";
+		};
+		01BB221C230503D8000CAB75 /* Studying VCs */ = {
+			isa = PBXGroup;
+			children = (
+				01BB222923050927000CAB75 /* Study_ProjectViewController.swift */,
+				01BB222B23050937000CAB75 /* Study_TipViewController.swift */,
+				01BB222D2305096B000CAB75 /* Study_KnowledgeBaseViewController.swift */,
+				01BB222F23050980000CAB75 /* Study_EditProjectViewController.swift */,
+			);
+			name = "Studying VCs";
+			sourceTree = "<group>";
+		};
+		33094884018DBAA3C2B06A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80DA3C31F05DBC818B29086A /* Pods_Culthabit.framework */,
+				7840020FB9385E1AC240DA39 /* Pods_CulthabitTests.framework */,
+				4A2972053A360F07965D64A7 /* Pods_CulthabitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BB21E22303781C000CAB75 /* Culthabit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BB220B2303781D000CAB75 /* Build configuration list for PBXNativeTarget "Culthabit" */;
+			buildPhases = (
+				8FE32E4A7A9272C883234BDE /* [CP] Check Pods Manifest.lock */,
+				01BB21DF2303781C000CAB75 /* Sources */,
+				01BB21E02303781C000CAB75 /* Frameworks */,
+				01BB21E12303781C000CAB75 /* Resources */,
+				BE57B8E38F797F6E51658395 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Culthabit;
+			productName = Culthabit;
+			productReference = 01BB21E32303781C000CAB75 /* Culthabit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BB21F62303781D000CAB75 /* CulthabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BB220E2303781D000CAB75 /* Build configuration list for PBXNativeTarget "CulthabitTests" */;
+			buildPhases = (
+				58F3A4A0A36C3F34C717B407 /* [CP] Check Pods Manifest.lock */,
+				01BB21F32303781D000CAB75 /* Sources */,
+				01BB21F42303781D000CAB75 /* Frameworks */,
+				01BB21F52303781D000CAB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BB21F92303781D000CAB75 /* PBXTargetDependency */,
+			);
+			name = CulthabitTests;
+			productName = CulthabitTests;
+			productReference = 01BB21F72303781D000CAB75 /* CulthabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01BB22012303781D000CAB75 /* CulthabitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BB22112303781D000CAB75 /* Build configuration list for PBXNativeTarget "CulthabitUITests" */;
+			buildPhases = (
+				73928463CF70BE411CB7A5F4 /* [CP] Check Pods Manifest.lock */,
+				01BB21FE2303781D000CAB75 /* Sources */,
+				01BB21FF2303781D000CAB75 /* Frameworks */,
+				01BB22002303781D000CAB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BB22042303781D000CAB75 /* PBXTargetDependency */,
+			);
+			name = CulthabitUITests;
+			productName = CulthabitUITests;
+			productReference = 01BB22022303781D000CAB75 /* CulthabitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BB21DB2303781C000CAB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = luke_zhu;
+				TargetAttributes = {
+					01BB21E22303781C000CAB75 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					01BB21F62303781D000CAB75 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 01BB21E22303781C000CAB75;
+					};
+					01BB22012303781D000CAB75 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 01BB21E22303781C000CAB75;
+					};
+				};
+			};
+			buildConfigurationList = 01BB21DE2303781C000CAB75 /* Build configuration list for PBXProject "Culthabit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BB21DA2303781C000CAB75;
+			productRefGroup = 01BB21E42303781C000CAB75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BB21E22303781C000CAB75 /* Culthabit */,
+				01BB21F62303781D000CAB75 /* CulthabitTests */,
+				01BB22012303781D000CAB75 /* CulthabitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BB21E12303781C000CAB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BB21F12303781D000CAB75 /* LaunchScreen.storyboard in Resources */,
+				01BB21EE2303781D000CAB75 /* Assets.xcassets in Resources */,
+				01BB221A23050164000CAB75 /* Schedule.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB21F52303781D000CAB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB22002303781D000CAB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58F3A4A0A36C3F34C717B407 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CulthabitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73928463CF70BE411CB7A5F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CulthabitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE32E4A7A9272C883234BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Culthabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE57B8E38F797F6E51658395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Culthabit/Pods-Culthabit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Culthabit/Pods-Culthabit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Culthabit/Pods-Culthabit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BB21DF2303781C000CAB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BB223223050BEE000CAB75 /* ScheduleViewController.swift in Sources */,
+				01BB2222230508C6000CAB75 /* Sche_AlarmViewController.swift in Sources */,
+				01BB223423050CB8000CAB75 /* Sche_RoutineViewController.swift in Sources */,
+				01BB21E92303781C000CAB75 /* HomeViewController.swift in Sources */,
+				01BB2224230508DE000CAB75 /* Sche_KeyTaskViewController.swift in Sources */,
+				01BB22182304A34D000CAB75 /* TaskInfo.swift in Sources */,
+				01BB223023050980000CAB75 /* Study_EditProjectViewController.swift in Sources */,
+				01BB222E2305096B000CAB75 /* Study_KnowledgeBaseViewController.swift in Sources */,
+				01BB222023050890000CAB75 /* Sche_AddTaskTableViewController.swift in Sources */,
+				01BB21E72303781C000CAB75 /* AppDelegate.swift in Sources */,
+				01BB2226230508EE000CAB75 /* Sche_StatViewController.swift in Sources */,
+				01BB222A23050927000CAB75 /* Study_ProjectViewController.swift in Sources */,
+				01BB222C23050937000CAB75 /* Study_TipViewController.swift in Sources */,
+				01BB22282305090A000CAB75 /* Sche_ShoppingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB21F32303781D000CAB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BB21FC2303781D000CAB75 /* CulthabitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BB21FE2303781D000CAB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BB22072303781D000CAB75 /* CulthabitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BB21F92303781D000CAB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BB21E22303781C000CAB75 /* Culthabit */;
+			targetProxy = 01BB21F82303781D000CAB75 /* PBXContainerItemProxy */;
+		};
+		01BB22042303781D000CAB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BB21E22303781C000CAB75 /* Culthabit */;
+			targetProxy = 01BB22032303781D000CAB75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BB21EF2303781D000CAB75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BB21F02303781D000CAB75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BB22092303781D000CAB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01BB220A2303781D000CAB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BB220C2303781D000CAB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163C65B478C2D15AFC92A881 /* Pods-Culthabit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94W336474M;
+				INFOPLIST_FILE = Culthabit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.Culthabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BB220D2303781D000CAB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12AFDB88C44092EC7E0F85C /* Pods-Culthabit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94W336474M;
+				INFOPLIST_FILE = Culthabit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.Culthabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01BB220F2303781D000CAB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F1E48BFB5885225D129420 /* Pods-CulthabitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CulthabitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.CulthabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Culthabit.app/Culthabit";
+			};
+			name = Debug;
+		};
+		01BB22102303781D000CAB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018B485312015A6F4BEA367D /* Pods-CulthabitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CulthabitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.CulthabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Culthabit.app/Culthabit";
+			};
+			name = Release;
+		};
+		01BB22122303781D000CAB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162343030265D4F6D41092B8 /* Pods-CulthabitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CulthabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.CulthabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Culthabit;
+			};
+			name = Debug;
+		};
+		01BB22132303781D000CAB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A29BA637FBD52ED43B68508 /* Pods-CulthabitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CulthabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezhu.CulthabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Culthabit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BB21DE2303781C000CAB75 /* Build configuration list for PBXProject "Culthabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BB22092303781D000CAB75 /* Debug */,
+				01BB220A2303781D000CAB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BB220B2303781D000CAB75 /* Build configuration list for PBXNativeTarget "Culthabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BB220C2303781D000CAB75 /* Debug */,
+				01BB220D2303781D000CAB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BB220E2303781D000CAB75 /* Build configuration list for PBXNativeTarget "CulthabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BB220F2303781D000CAB75 /* Debug */,
+				01BB22102303781D000CAB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BB22112303781D000CAB75 /* Build configuration list for PBXNativeTarget "CulthabitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BB22122303781D000CAB75 /* Debug */,
+				01BB22132303781D000CAB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BB21DB2303781C000CAB75 /* Project object */;
+}
